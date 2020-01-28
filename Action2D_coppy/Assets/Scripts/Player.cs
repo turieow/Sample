@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
         Vector2 scale = transform.localScale;
 
         // 左右の十字キーで移動        
-        v.x = Input.GetAxis("Horizontal") * moveSpeed;
+        v.x = Input.GetAxis("Virtical") * moveSpeed;
         // スペースキーでジャンプ    
         
         if (Input.GetButtonDown("Jump") && !isJump)
